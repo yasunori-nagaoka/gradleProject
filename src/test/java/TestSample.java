@@ -62,7 +62,7 @@ public class TestSample {
 		System.out.println("@Test testSample2 call");
 		Person person = new Person(2, 6, "‘¾˜Y");
 		int min = 100;
-		assertEquals(5 * min, person.walk(min));
+		assertEquals(2 * min, person.walk(min));
 	}
 	
 	
