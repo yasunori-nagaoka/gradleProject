@@ -34,3 +34,6 @@ task hello {
 	}
 }
 
+compileTestJava{
+	option.encoding = 'UTF-8'
+}
