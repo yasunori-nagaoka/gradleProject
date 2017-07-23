@@ -33,7 +33,3 @@ task hello {
 		println 'Hello World!'
 	}
 }
-
-compileTestJava{
-	options.encoding = 'UTF-8'
-}
